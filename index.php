@@ -42,6 +42,7 @@ session_start();
             <h1>PHP 5.4 File Upload Progress Demo</h1>
             <? echo ini_get("session.upload_progress.name"); ?><br>
             <? echo ini_get("session.upload_progress.enabled"); ?><br>
+            <? echo session_id(); ?>
         </header>
 
         <div class="row">
